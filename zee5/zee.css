@@ -1,0 +1,472 @@
+*
+{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box; 
+    font-family: NotoSansBold,sans-serif;
+     
+}
+ html{
+    overflow-x: hidden;
+   
+}  
+ .navbar-nav 
+ {
+      font-size:14px;
+      
+}
+
+  .dropdown-menu img
+{
+    height:71%;
+    width:114%;
+}  
+
+ .dropdown-item 
+{
+    width: 300%;
+    height: 70%;
+    font-size: 12px;
+} 
+.table
+{
+    padding: 4px;
+}
+
+/* .dropdown-item img{
+    width:40%;
+    height:40%;
+    padding:12px;
+} */
+
+.navbar-dark
+{
+    background-color: transparent;
+}
+
+.loginbtn button
+{
+    
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.91667em;
+    font-weight: 700;
+    height: 34px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 0 12px;
+    margin-right: 20px;
+    /* cursor: pointer; */
+    text-transform: uppercase;
+    text-align: center; 
+}
+.loginbtn button:hover
+{
+    background-color: #fff;
+    color: black;
+}
+ li
+ {
+     list-style-type: none;
+ }
+
+.buy button
+{
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    background-color: #8230c6;
+    border-radius: 10px;
+    padding: 10px 18px;
+    position: relative;
+    font-size: 12px;
+    border:none;
+    right:8px;
+}
+.nav-link  i 
+{
+    color: #fff;
+
+} 
+.dropa i{
+    margin-right: 50px;
+}
+sup
+{
+    color: #fff;
+}
+
+       /* card1 */
+.zee h1
+{
+    font-size: 22px;
+    margin-left: 41px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+
+.carousel-caption h5
+{
+    position: absolute;
+    top:-15px;
+    font-size: 30px;
+    left:-89px;
+    font-weight: 600;
+    color: #fff;
+    }
+
+    
+.watch
+{
+    
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.91667em;
+    font-weight: 700;
+    height: 34px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 0 20px;
+    margin-left:-750px; 
+    margin-top:39px;
+    text-transform: uppercase;
+    text-align: center;  
+    }
+.plan
+{
+    background-color: #8230c6;
+    border-radius: 10px;
+    padding: 10px 18px;
+    position: relative;
+    font-size: 12px;
+    border: none;
+    left:7px;
+    color: #fff;
+    font-weight: 700;
+}
+.buy button:hover
+{
+      opacity:0.8;
+}
+.dropdown:hover> .dropdown-menu
+{
+    display: block;
+    
+}
+#navbarDropdown i:hover{
+    background-color: #8230c6;
+}
+.dropdown-menu a
+{
+    color: #fff;
+ }
+ /* cards1 */
+.card img
+{
+    width:12.5rem;
+    height: 100%;
+    position:relative;
+    border-radius: 6px;
+    margin:-2px -2px;
+    
+}
+
+.card-body{
+    position: absolute;
+    top:74%;
+    bottom:-1%;
+    left:-1%;
+    min-height: 1px;
+    padding: 1.25rem;
+    opacity:0;
+    background-color:white;
+    transition:opacity 0.3s ease-in-out 0s;
+    width:12.5rem; 
+}
+
+.card-body h6
+{
+font-size: 10px;
+}
+
+.card-body button
+{
+    font-size: 12px;
+    }
+ .card:hover
+{
+    transform:scale(1.2);
+    outline:white solid 6px; 
+    opacity: 1.0;
+} 
+ .card:hover .card-body{
+    opacity:1;
+} 
+
+.col
+{
+    margin-right:82px;
+    margin-left:-78px;
+}
+   /* card2  */
+ .exclu h1
+{
+    font-size: 22px;
+    margin-left:-77px;
+    margin-top:5px;
+    color: #fff;
+}
+
+.exclucard img
+{
+    width:12.2rem;
+    height: 100%;
+    position:relative;
+    border-radius:8px;
+    margin:-1px; 
+}
+
+.exclucard-body{
+    position: absolute;
+    top:74%;
+    bottom:-1%;
+    left:-1%;
+    min-height: 1px;
+    padding: 1.25rem;
+    opacity:0;
+    background-color:white;
+    transition:opacity 0.3s ease-in-out 0s;
+    width:12.5rem; 
+}
+
+.exclucard-body h6
+{
+font-size: 10px;
+}
+
+.exclucard-body button
+{
+    font-size: 12px;
+    }
+ .exclucard:hover
+{
+    transform:scale(1.2);
+    outline:white solid 6px; 
+    opacity: 1.0;
+} 
+ .exclucard:hover .exclucard-body{
+    opacity:1;
+} 
+
+
+
+/* cards3 */
+.tamil h1
+{
+    font-size: 22px;
+    margin-left:-75px;
+    margin-top: -23px;
+    color: #fff;
+} 
+
+.tcard img
+{
+    width:12.5rem;
+    height: 100%;
+    position:relative;
+    border-radius: 6px;
+    margin:-2px -2px;
+    
+}
+
+
+.tcard-body{
+    position: absolute;
+    top:74%;
+    bottom:-1%;
+    left:-1%;
+    min-height: 1px;
+    padding: 1.25rem;
+    opacity:0;
+    background-color:white;
+    transition:opacity 0.3s ease-in-out 0s;
+    width:12.5rem; 
+}
+ .tcard-body h6
+{
+font-size: 10px;
+top:4%;
+}
+
+.tcard-body button
+{
+    font-size: 12px;
+    padding:2px;
+    } 
+ .tcard:hover
+{
+    transform:scale(1.2);
+    /* outline:white solid 10px;  */
+    opacity: 1.0;
+} 
+ .tcard:hover .tcard-body{
+    opacity:1;
+} 
+
+.foot hr
+{
+    background-color:rgb(90, 87, 87);
+    width: 132%;
+    margin-left:-163px;
+}
+
+ .foot h3
+{
+       min-width: 190px;
+        width: 90%;
+        margin-top:60px;
+        margin-left:-129px;
+        padding-bottom: 20px;
+        font-size: 1.0rem;
+        font-weight: 700;
+        color:white;
+        position:relative;
+
+}
+
+#play
+{
+    margin-top:-100px;
+    margin-left:26px;
+    
+}
+
+#apple
+{
+    margin-top:-100px;
+    margin-left:6px;
+}
+
+  
+.foot h2
+{
+    margin-top:-70px;
+    margin-left:560px;
+    box-sizing: border-box;
+    font-size: 1.0rem;
+    font-weight: 700;
+    color: #fff;
+} 
+
+ .connect a
+{
+    text-decoration: none;
+    font-size:12px;
+    font-weight: 400;
+    position:absolute;
+    color: #fff;
+    margin-top: 80px;
+    margin-left:186px;
+}
+
+.colmn1 ul
+{
+    display: block;
+    justify-content: center;
+    left: -127px;
+    color: #757575;
+    list-style: none;
+    position:relative;
+    top:160px;
+    font-size: 13px;
+    line-height:30px;
+    
+}
+
+.colmn2 ul
+{
+    display: block;
+    justify-content: center;
+    left: 100px;
+    color: #757575;
+    list-style: none;
+    position: relative;
+    top:-38px;
+    font-size: 13px;
+    line-height:30px;
+    
+}
+
+.colmn3 ul
+{
+    display: block;
+    justify-content: center;
+    left: 292px;
+    color: #757575;
+    list-style: none;
+    position: relative;
+    top:-236px;
+    font-size: 13px;
+    line-height:30px;
+    
+} 
+
+.colmn4 ul
+{
+    display: block;
+    justify-content: center;
+    left: 552px;
+    color: #757575;
+    list-style: none;
+    position: relative;
+    top:-434px;
+    font-size: 13px;
+    line-height:30px;
+}
+
+.colmn5 ul
+{
+    display: block;
+    justify-content: center;
+    left: 752px;
+    color: #757575;
+    list-style: none;
+    position: relative;
+    top:-629px;
+    font-size: 13px;
+    line-height:30px;
+}
+
+#copy p
+{
+    color: aliceblue;
+    font-size: 12px;
+    top:-597px;
+    left:-97px;
+    color: #757575;
+    position: relative;
+}
+
+  .footsec
+{
+    position: static;
+} 
+
+.tvimage
+{
+    display: flex;
+    width: 50rem;
+}
+
+.tvimage .image-sec img
+{
+    width: 16rem;
+    height: 9rem;
+    border-radius: 0.5rem;
+    margin: 7px;
+}
+
+
